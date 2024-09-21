@@ -1,0 +1,50 @@
+/* Sidebar Container */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #2C3E50;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    color: white;
+  }
+  
+  /* Sidebar Title */
+  .sidebar-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #ecf0f1;
+  }
+  
+  /* Sidebar List */
+  .sidebar-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Sidebar Item */
+  .sidebar-item {
+    margin: 15px 0;
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+  
+  .sidebar-item a {
+    text-decoration: none;
+    color: #ecf0f1;
+    display: block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar-item a:hover {
+    background-color: #34495e;
+    padding-left: 25px;
+    border-left: 5px solid #1abc9c;
+  }
+  
