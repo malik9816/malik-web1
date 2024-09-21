@@ -2,7 +2,7 @@
     max-width: 400px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #e3e1e1f4;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
@@ -23,16 +23,17 @@
   }
   
   .form-group input {
-    width: 100%;
+    width: 95%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
   }
   
   .form-buttons {
-    display: flex;
-    justify-content: space-between;
+    display:flex;
+    justify-content:space-between;
+    
   }
   
   .cancel-btn,

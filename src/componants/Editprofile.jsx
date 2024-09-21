@@ -91,6 +91,7 @@ function EditProfile() {
           <button type="button" className="cancel-btn" onClick={handleCancel}>
             Cancel
           </button>
+          
           <button type="button" className="save-btn" onClick={handleSave}>
             Save
           </button>
